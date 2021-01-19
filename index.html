@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zonex</title>
+    <script src="https://kit.fontawesome.com/341eecbcd4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/media.css">
+</head>
+<body>
+
+    <div class="page">
+        <!--  Scroll to top button -->
+        <button class="btn-top"><i class="fas fa-angle-double-up"></i></button>
+
+        <!-- Sidemenu -->
+        <div class="sidebar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Elements</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Page</a></li>
+            </ul>
+            <button class="sidebarBtn">
+                <span></span>
+            </button>
+        </div>
+        <!-- HEADER -->
+        <header class="header">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <nav class="nav header__nav">
+                            <ul class="nav-list">
+                                <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">Shop</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">Elements</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
+                                <li class="nav__item"><a href="#" class="nav__link">Page</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-2 col-md-5 col-sm-5 col-5" style="text-align: center;">
+                        <a href="index.html" class="logo header__logo"><img src="images/logo.png" alt=""></a>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-5">
+                        <ul class="shop-nav header__shop-nav" style="margin: 0;">
+                            <li class="shop-nav__item">
+                                <form action="#" class="shop-nav__search-form search-form">
+                                    <i class="fas fa-search"></i>
+                                    <!-- <button class="shop-form__btn" aria-label="Find"></button> -->
+                                </form>
+                            </li>
+                            <li class="shop-nav__item">
+                                <a href="" class="shop-nav__link shop-nav__link--user" aria-label="Go to cabinet">
+                                    <i class="fas fa-user"></i>
+                                </a>
+                            </li>
+                            <li class="shop-nav__item">
+                                <a href="" class="shop-nav__link shop-nav__link--cart">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <span class="cart_quantity">3</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- HEADER ENDS -->
+        <!-- MAIN -->
+        <main class="main">
+            <section class="hero">
+                <div class="container hero-container">
+                    <h1 class="hero-title">Fall-Winter Clarance Sales</h1>
+                    <p class="hero-desc">All Sale Items are Final Sale / Free Shipping on All Orders</p>
+                    <img class="hero-image" src="images/banner.png" alt="">
+                </div>
+            </section>
+            <!-- SALES -->
+            <section class="sales">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                            <div class="sale-block sale-grey">
+                                <div class="sale-text">
+                                    <h3>Women's Mid-Season</h3>
+                                    <a href="#" class="nav__link">Shop Now</a>
+                                </div>
+                                <div class="sale-image-block">
+                                    <img class="sale-img" src="images/sales/1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                            <div class="sale-block sale-purple">
+                                <div class="sale-text">
+                                    <h3>Summer Romance</h3>
+                                    <a href="#" class="nav__link">Shop Now</a>
+                                </div>
+                                <div class="sale-image-block">
+                                    <img class="sale-img" src="images/sales/2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                            <div class="sale-block sale-lgrey">
+                                <div class="sale-text">
+                                    <h3>20% Off All Accessories</h3>
+                                    <a href="#" class="nav__link">Shop Now</a>
+                                </div>
+                                <div class="sale-image-block">
+                                    <img class="sale-img" src="images/sales/3.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- PRODCUTS -->
+            <section class="products">
+                <div class="container-fluid products__container">
+                    <ul class="product__nav mb-5">
+                        <li class="products__item">
+                            <button class="products__btn btn-reset">Best Sellers</button>
+                        </li>
+                        <li class="products__item">
+                            <button class="products__btn btn-reset">New Products</button>
+                        </li>
+                        <li class="products__item">
+                            <button class="products__btn btn-reset">Sale Products</button>
+                        </li>
+                    </ul>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                            <div class="product">
+                                <div class="product__image">
+                                    <img src="images/products/1.png" alt="Product Image">
+                                </div>
+                                <div class="new"><img src="images/icons/twiglight.png" alt="">new</div>
+                                <h3 class="product__title">Eye Mesh</h3>
+                                <p class="product__price">$220.00</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                            <div class="product">
+                                <div class="product__image">
+                                    <img src="images/products/2.png" alt="Product Image">
+                                </div>
+                                <h3 class="product__title">Azure Tote</h3>
+                                <p class="product__price">$290.00</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                            <div class="product">
+                                <div class="product__image">
+                                    <img src="images/products/3.png" alt="Product Image">
+                                </div>
+                                <h3 class="product__title">Blue Raincoat</h3>
+                                <p class="product__price">$125.00</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                            <div class="product">
+                                <div class="product__image">
+                                    <img src="images/products/4.png" alt="Product Image">
+                                </div>
+                                <div class="best"><img src="images/icons/best.png" alt="">best seller</div>
+                                <h3 class="product__title">Backpack with contrasting buckle</h3>
+                                <p class="product__price">$80.00 - $125.00</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                            <div class="product">
+                                <div class="product__image">
+                                    <img src="images/products/5.png" alt="Product Image">
+                                </div>
+                                <div class="best"><img src="images/icons/best.png" alt="">best seller</div>
+                                <h3 class="product__title">Shirt in organic cotton classic gingham</h3>
+                                <p class="product__price">$59.50</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                            <div class="product">
+                                <div class="product__image">
+                                    <img src="images/products/6.png" alt="Product Image">
+                                </div>
+                                <div class="hot"><img src="images/icons/hot.png" alt="">hot</div>
+                                <h3 class="product__title">Eye Mesh</h3>
+                                <p class="product__price">$220.00</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                            <div class="product">
+                                <div class="product__image">
+                                    <img src="images/products/7.png" alt="Product Image">
+                                </div>
+                                <div class="rate"><img src="images/icons/rate.png" alt="">top rate</div>
+                                <h3 class="product__title">Eye Mesh</h3>
+                                <p class="product__price">$220.00</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+                            <div class="product">
+                                <div class="product__image">
+                                    <img src="images/products/8.png" alt="Product Image">
+                                </div>
+                                <h3 class="product__title">Eye Mesh</h3>
+                                <p class="product__price">$220.00</p>
+                            </div>
+                        </div>
+                        <div class="more">
+                            <button class="btn-reset products__more">Load More<img src="images/down.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ADDS -->
+            <section class="shop-banners">
+                <div class="shop-banners__container">
+                    <div class="shop-banner banner-men">
+                        <div class="banner-overlay"></div>
+                        <h2 class="shop-banner-title">Men's Sportswear</h2>
+                        <span class="shop-banner-text">Read more</span>
+                    </div>
+                    <div class="shop-banner banner-women">
+                        <div class="banner-overlay"></div>
+                        <h2 class="shop-banner-title">Find m('your') fit</h2>
+                        <span class="shop-banner-text">Read more</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- MAIN ENDS -->
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="upper-footer">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                            <div class="upper-footer-block">
+                                <h4>Customer service</h4>
+                                <ul class="upper-footer__ul">
+                                    <li>Phone: +866.597.2742</li>
+                                    <li>Live chat</li>
+                                    <li>About Us</li>
+                                    <li>Terms & Conditions</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                            <div class="upper-footer-block">
+                                <h4>Company</h4>
+                                <ul class="upper-footer__ul">
+                                    <li>What We Do</li>
+                                    <li>Available Services</li>
+                                    <li>Latest Posts</li>
+                                    <li>FAQs</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                            <div class="upper-footer-block">
+                                <h4>Our newsletter</h4>
+                                <p class="mt-4">Join our list and get 15% off your first purchase!</p>
+                                <form action="#" method="post" class="layout-newsletter">
+                                    <input type="email" name="Email" class="editContent email-input" placeholder="Enter your email..." required="" >
+                                    <button class="btn1 btn" ><span class="fa fa-paper-plane-o" aria-hidden="true" ></span></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lower-footer">
+                    <div class="lower-footer__block">
+                        <ul class="lower-footer__ul">
+                            <li>Returns Policy</li>
+                            <li>Privacy Policy</li>
+                            <li>Privacy Policy</li>
+                        </ul>
+                    </div>
+                    <div class="lower-footer__block">
+                        <ul class="lower-footer__ul_links">
+                            <li><i class="fab fa-twitter"></i></li>
+                            <li><i class="fab fa-facebook-square"></i></li>
+                            <li><i class="fab fa-instagram-square"></i></li>
+                            <li><i class="fab fa-pinterest-p"></i></li>
+                        </ul>
+                    </div>  
+                </div>
+            </div>
+        </footer>
+        <!-- FOOTER ENDS -->
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

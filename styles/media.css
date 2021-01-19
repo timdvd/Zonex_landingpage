@@ -1,0 +1,92 @@
+/* MAX WIDTHS OF SCREEN */
+
+/* styles for max width of 1024px */
+@media screen and (max-width: 1024px){
+
+}
+/* styles for max width of 960px */
+@media screen and (max-width: 992px){
+    .header__nav{
+        display: none;
+    }
+    .sidebar{
+		display: block;
+    }
+    .shop-banners__container{
+        flex-direction: column;
+    }
+    .shop-banner{
+        width: 80%;
+        margin: 10px 0;
+    }
+}
+/* styles for max width of 767px */
+@media screen and (max-width: 767px){
+    .sale-block{
+        margin: 10px 0;
+    }
+    .shop-banner{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .hero-image{
+        position: absolute;
+        right: -150px;
+        bottom: 0;
+    }
+    .lower-footer{
+        flex-direction: column;
+    }
+    .lower-footer__block{
+        margin: 15px 0;
+    }
+}
+/* styles for max width of 656px */
+@media screen and (max-width: 666px){
+    .catalog-slide{
+        padding: 20px;
+    }
+    .catalog__hero-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .swiper-button-prev-unique{
+        position: absolute;
+        top: 50%;
+        left: 20px;
+        transform: translate(-50%, -50%);
+    }
+    .swiper-button-next-unique{
+        position: absolute;
+        top: 50%;
+        right: 0px;
+        transform: translate(-50%, -50%);
+    }
+}
+/* styles for max width of 556px */
+@media screen and (max-width: 556px){
+
+}
+/* styles for max width of 480px */
+@media screen and (max-width: 480px){
+
+}
+
+/* MIN WIDTHS OF SCREEN */
+
+/* styles for min width of 1024px */
+@media screen and (min-width: 1024px){
+
+}
+/* styles for min width of 960px */
+@media screen and (min-width: 960px){
+
+}
+/* styles for min width of 767px */
+@media screen and (min-width: 767px){
+
+}
+/* styles for min width of 556px */
+@media screen and (min-width: 556px){
+
+}
